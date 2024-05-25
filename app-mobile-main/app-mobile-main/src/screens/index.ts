@@ -1,0 +1,17 @@
+import DetalleExamenScreen from './detalleExamenScreen/index';
+export {default as Home} from './home/index';
+export {default as NotificationScreen} from './notificationScreen/index';
+export {default as MenuDinamicoScreen} from './menuDinamicoScreen/index';
+export {default as CalendarScreen} from './calendarScreen/index';
+export {default as NovedadScreen} from './novedadScreen/index';
+export {default as TramiteScreen} from './tramiteScreen/index';
+export {default as ImpuestoScreen} from './impuestoScreen/index';
+export {default as PerfilScreen} from './perfilScreen/index';
+export {default as LoginScreen} from './login/index';
+export {default as ClienteScreen} from './clienteScreen/index';
+export {default as PDFViewer} from './documentScreen/index';
+export {default as ComponentsScreen} from './componentsScreen/index';
+export {default as Home2} from './home2/index';
+export {default as AcademicoScreen} from './academicoScreen/index';
+export {default as DetalleCursoScreen} from './detalleCursoScreen/index';
+export {default as DetalleExamenScreen} from './detalleExamenScreen/index';

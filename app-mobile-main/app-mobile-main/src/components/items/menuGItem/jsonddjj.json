@@ -1,0 +1,52 @@
+{
+  "encabezado": [
+    {
+      "clave": "estado",
+      "titulo": "Estado",
+      "tipo": "string",
+      "visible": true
+    },
+    {
+      "clave": "periodo_fiscal",
+      "titulo": "Pos Fiscal",
+      "tipo": "string",
+      "visible": true
+    },
+    {
+      "clave": "f_presentacion",
+      "titulo": "Fecha Presentacion",
+      "tipo": "date",
+      "visible": true
+    },
+    {
+      "clave": "f_vto",
+      "titulo": "Fecha Vencimiento",
+      "tipo": "date",
+      "visible": true
+    }
+  ],
+  "datos": [
+    {
+      "titulo_principal": "DECLARACIÓN JURADA ANUAL FORMULARIO SR-320",
+      "id": 222,
+      "id_archivo": 1,
+      "items": {
+        "estado": "No presentada",
+        "periodo_fiscal": "202301",
+        "f_presentacion": "01/01/2024",
+        "f_vto": "01/01/2024"
+      }
+    },
+    {
+      "titulo_principal": "DECLARACIÓN JURADA MENSUAL FORMULARIO SR-318",
+      "id": 3333,
+      "id_archivo": 111,
+      "items": {
+        "estado": "Presentada",
+        "periodo_fiscal": "202301",
+        "f_presentacion": "01/01/2024",
+        "f_vto": "01/01/2024"
+      }
+    }
+  ]
+}

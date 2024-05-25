@@ -1,0 +1,94 @@
+{
+  "Login": {
+    "boton": "Ingresar",
+    "contrasena": "Contraseña",
+    "mensaje": "Ingrese con credenciales",
+    "titulo": "Hola!",
+    "usuario": "Usuario",
+    "camposIncompletos": "Por favor, completa todos los campos.",
+    "tituloError": "Error",
+    "credIncorrectas": "Credenciales Incorrectas."
+  },
+  "tituloMenu": "Menú Principal",
+  "Dashboard": {
+    "title_principal": "¿Qué necesitas hacer hoy?"
+  },
+  "drawer": {
+    "ver_perfil": "Ver perfil",
+    "cerrar_sesion": "Cerrar Sesión"
+  },
+  "Componentes": {
+    "tituloCRN": "Componentes de React Native Core",
+    "tituloRNP": "Componentes de React Native Paper",
+    "tituloCP": "Componentes propios",
+
+    "tituloBoton": "¡Presioname!",
+
+    "tituloBotonAlerta": "Mostrar alerta",
+    "tituloAlerta": "Titulo de la Alerta",
+    "mensajeAlerta": "Mensaje de mi Alerta",
+    "textoPreguntarMasTarde": "Preguntarme mas tarde",
+    "textoCancelar": "Cancelar",
+
+    "tituloBotonFadeIn": "Aparecer View",
+    "tituloBotonFadeOut": "Desvanecer View",
+    "textoAnimatedView": "¡View desvanecido!",
+
+    "textoCard": "¡Soy una tarjeta!",
+
+    "inputPlaceholder": "Ingrese texto aqui",
+    "tituloBotonSubmit": "Enviar",
+
+    "dataNotificacion": {
+      "titulo": "Titulo lorem ipsum",
+      "prioridad": "Alta",
+      "referencia": "Referencia",
+      "estado": "notificado",
+      "c_usuario_lec": "user",
+      "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices quam a fermentum fringill. Fusce id purus eu magna mollis posuere sit amet id justo"
+    },
+
+    "tituloBotonModal": "Mostrar Modal",
+    "tituloModal": "Titulo del Modal",
+    "textoDetalleModal": "Texto detalle del modal",
+
+    "textoHelper": "¡Email ingresado invalido!",
+
+    "searchBarPlaceholder": "Buscar",
+
+    "segmentedButtons": {
+      "caminar": "Caminando",
+      "tren": "Transito",
+      "manejar": "Manejando"
+    }
+  },
+  "generales": {
+    "tituloDescarga": "Descarga",
+    "descargaExitosa": "Descarga exitosa.",
+    "descargaFallida": "Error al descargar el archivo PDF.",
+    "noEncontrado": "No se encontraron archivos.",
+    "permisoDenegado": "Se necesitan permisos para continuar.",
+    "tituloError": "Error",
+    "noLoggedGen": "Sesion del cliente expirada.",
+    "noLoggedCli": "Sesion del usuario expirada."
+  },
+  "home": {
+    "saludo": "¡Hola!",
+    "misClasesHoy": "Mis clases hoy",
+    "misClasesDel": "Mis clases del ...",
+    "proximosExamenes": "Próximos exámenes",
+    "profesor/a": "Profesor/a",
+    "noClasesHoy": "No tienes clases hoy",
+    "noProxExamenes": "No tienes exámenes próximamente",
+    "horario": "Horario"
+  },
+  "academico": {
+    "titulo": "Académico",
+    "enCurso": "En Curso",
+    "historial": "Historial",
+    "examenesRendidos": "Exámenes rendidos",
+    "proximosExamenes": "Próximos exámenes",
+    "horario": "Horario"
+  },
+  "idioma": "Idioma"
+}

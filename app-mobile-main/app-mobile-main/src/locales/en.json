@@ -1,0 +1,97 @@
+{
+  "Login": {
+    "boton": "Log In",
+    "contrasena": "Password",
+    "mensaje": "Log in with your credentials",
+    "titulo": "Hello!",
+    "usuario": "Username",
+    "camposIncompletos": "Please complete all fields.",
+    "tituloError": "Error",
+    "credIncorrectas": "Incorrect Credentials."
+  },
+
+  "tituloMenu": "Dashboard",
+  "Dashboard": {
+    "title_principal": "What do you need to do today?"
+  },
+  "drawer": {
+    "ver_perfil": "View profile",
+    "cerrar_sesion": "Logout"
+  },
+  "Componentes": {
+    "tituloCRN": "React Native Core Components",
+    "tituloRNP": "React Native Paper Components",
+    "tituloCP": "Own components",
+
+    "tituloBoton": "Press me!",
+
+    "tituloBotonAlerta": "Show alert",
+    "tituloAlerta": "Alert Title",
+    "mensajeAlerta": "My Alert Msg",
+    "textoPreguntarMasTarde": "Ask me later",
+    "textoCancelar": "Cancel",
+
+    "tituloBotonFadeIn": "Fade in view",
+    "tituloBotonFadeOut": "Fade out view",
+    "textoAnimatedView": "Fading View!",
+
+    "textoCard": "This is a card!",
+
+    "inputPlaceholder": "Enter text here",
+    "tituloBotonSubmit": "Submit",
+
+    "dataNotificacion": [
+      {
+        "titulo": "Title lorem ipsum",
+        "prioridad": "High",
+        "referencia": "Reference",
+        "estado": "notified",
+        "c_usuario_lec": "user",
+        "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices quam a fermentum fringill. Fusce id purus eu magna mollis posuere sit amet id justo"
+      }
+    ],
+
+    "tituloBotonModal": "Show Modal",
+    "tituloModal": "Modal Title",
+    "textoDetalleModal": "Modal Text Detail",
+
+    "textoHelper": "Email address is invalid!",
+
+    "searchBarPlaceholder": "Search",
+
+    "segmentedButtons": {
+      "caminar": "Walking",
+      "tren": "Transit",
+      "manejar": "Driving"
+    }
+  },
+  "generales": {
+    "tituloDescarga": "Download",
+    "descargaExitosa": "Successful download.",
+    "descargaFallida": "Error downloading PDF file.",
+    "noEncontrado": "No files found.",
+    "permisoDenegado": "Permits are required to continue.",
+    "tituloError": "Error",
+    "noLoggedGen": "Sesion client expired.",
+    "noLoggedCli": "Sesion user expired."
+  },
+  "home": {
+    "saludo": "Hello!",
+    "misClasesHoy": "Today's classes",
+    "misClasesDel": "...classes",
+    "proximosExamenes": "Upcoming exams",
+    "profesor/a": "Teacher",
+    "noClasesHoy": "You don't have classes today",
+    "noProxExamenes": "You don't have any exams coming up",
+    "horario": "Schedule"
+  },
+  "academico": {
+    "titulo": "Academic",
+    "enCurso": "In progress",
+    "historial": "History",
+    "examenesRendidos": "Exams taken",
+    "proximosExamenes": "Upcoming exams",
+    "horario": "Schedule"
+  },
+  "idioma": "Language"
+}

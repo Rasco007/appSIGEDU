@@ -1,0 +1,20 @@
+{
+  "state": "OK",
+  "events": [
+    {
+      "title": "Impuesto lorem ipsum",
+      "date": "2023-10-18T10:00:00",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices quam a fermentum fringilla. Fusce id purus eu magna mollis posuere sit amet id justo"
+    },
+    {
+      "title": "Impuesto lorsem ipsum",
+      "date": "2023-10-23T10:00:00",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices quam a fermentum fringilla. Fusce id purus eu magna mollis posuere sit amet id justo"
+    },
+    {
+      "title": "Impuesto lorem ipsum",
+      "date": "2023-10-20T15:30:00",
+      "body": "lorem lorem lorem"
+    }
+  ]
+}

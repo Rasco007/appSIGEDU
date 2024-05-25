@@ -1,0 +1,38 @@
+{
+  "state": "OK",
+  "cardsGeneral": [
+    {
+      "title": "¿Que necesitas hacer hoy?",
+      "cards": [
+        {
+          "title": "Ver/Pagar impuestos",
+          "icon": "ui-icon-pay",
+          "screen": "Ddjj"
+        },
+        {
+          "title": "Declaraciones Juradas",
+          "icon": "ui-icon-lorem",
+          "screen": "Ddjj"
+        },
+        {
+          "title": "Tramites",
+          "icon": "ui-icon-lorem",
+          "screen": "Tramites"
+        }
+      ]
+    },
+    {
+      "title": "Titulo 2",
+      "cards": [
+        {"id": 4, "title": "Lorem", "icon": "ui-icon-pay", "screen": "Ddjj"},
+        {"id": 5, "title": "Lorem", "icon": "ui-icon-lorem", "screen": "Ddjj"},
+        {
+          "id": 6,
+          "title": "Lorem",
+          "icon": "ui-icon-lorem",
+          "screen": "Novedades"
+        }
+      ]
+    }
+  ]
+}

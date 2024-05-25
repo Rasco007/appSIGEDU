@@ -1,0 +1,21 @@
+version: "3.7"
+services:
+  backend_client:
+    image: ${CONTAINER_NAME}
+    container_name: ${CONTAINER_NAME}
+    build:
+      context: ../
+      dockerfile: ./dockerfiles/Dockerfile
+      args:
+        IMG_VERSION: ${IMG_VERSION}
+    volumes:
+      - ../app:/sistema/app
+      - ../public:/sistema/public
+      - ../composer.json:/sistema.json
+      - ../tests:/sistema/tests
+      - ../.env:/sistema/.env
+    ports:
+      - "${HTTP_PORT_HOST}:${HTTP_PORT_CONTAINER}"
+      - "${HTTPS_PORT_HOST}:${HTTPS_PORT_CONTAINER}"
+    restart: unless-stopped
+#networks:

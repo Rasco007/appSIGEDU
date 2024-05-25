@@ -1,0 +1,22 @@
+stages:
+  - deploy
+
+01_cleanup-job:
+  stage: deploy
+  script:
+    - echo "Remove Container and Image $NOMBRE_IMAGEN"
+    - docker-compose -f dockerfiles/docker-compose-tdi.yml down || true
+    - docker image rm "$NOMBRE_IMAGEN" || true
+  tags:
+    - docker
+  only:
+    - deploy
+02_deploy-job:
+  stage: deploy
+  script:
+    - echo "Creating new image $NOMBRE_IMAGEN"
+    - docker-compose -f dockerfiles/docker-compose-tdi.yml up -d --build
+  tags:
+    - docker
+  only:
+    - deploy

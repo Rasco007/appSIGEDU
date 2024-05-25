@@ -1,0 +1,32 @@
+{
+  "credenciales": [
+    {
+      "user": "27239479915",
+      "pass": "81dc9bdb52d04dc20036dbd8313ed055"
+    },
+    {
+      "user": "12345678",
+      "pass": "admin"
+    }
+  ],
+  "usuarios": [
+    {
+      "state": "OK",
+      "msj": "success",
+      "userName": "DENOMINACIÓN DE EJEMPLO",
+      "userId": "27239479915"
+    },
+    {
+      "state": "NOOK",
+      "msj": "El nombre de usuario o la contraseña introducidos no son correctos",
+      "userName": "",
+      "userId": ""
+    },
+    {
+      "state": "OK",
+      "msj": "success",
+      "userName": "Usuario de prueba",
+      "userId": "12345678"
+    }
+  ]
+}

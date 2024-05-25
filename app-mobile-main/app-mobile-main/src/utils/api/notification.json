@@ -1,0 +1,29 @@
+{
+  "state": "OK",
+  "notificaciones": [
+    {
+      "nroNotif": 1,
+      "titulo": "Documentación Rechazada",
+      "prioridad": "Alta",
+      "referencia": "Legajo Único",
+      "f_notif": "dd/mm/yyyy hh:mm",
+      "leido": true,
+      "estado": "notificado",
+      "f_leido": "dd/mm/yyyy hh:mm",
+      "c_usuario_lec": "user",
+      "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices quam a fermentum fringill. Fusce id purus eu magna mollis posuere sit amet id justo"
+    },
+    {
+      "nroNotif": 2,
+      "titulo": "Documentación Rechazada",
+      "prioridad": "Alta",
+      "referencia": "Legajo Único",
+      "f_notif": "dd/mm/yyyy hh:mm",
+      "leido": false,
+      "estado": "notificado",
+      "f_leido": "dd/mm/yyyy hh:mm",
+      "c_usuario_lec": "user",
+      "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices quam a fermentum fringill. Fusce id purus eu magna mollis posuere sit amet id justo"
+    }
+  ]
+}

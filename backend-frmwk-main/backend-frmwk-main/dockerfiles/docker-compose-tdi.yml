@@ -1,0 +1,26 @@
+version: "3.7"
+services:
+  sigedu-mobile-frmwk:
+    image: ${CONTAINER_NAME}
+    container_name: ${CONTAINER_NAME}
+    build:
+      context: ../
+      dockerfile: dockerfiles/Dockerfile-tdi
+      args:
+        IMG_VERSION: ${IMG_VERSION}
+    networks:
+      - network_project
+    volumes:
+      - /mnt/proyectos_nas01_nfs/SIGEDU-Mobile/Repositorio/Backend-Frmwk/app:/sistema/app
+      - /mnt/proyectos_nas01_nfs/SIGEDU-Mobile/Repositorio/Backend-Frmwk/public:/sistema/public
+      - /mnt/proyectos_nas01_nfs/SIGEDU-Mobile/Repositorio/Backend-Frmwk/composer.json:/sistema.json
+      - /mnt/proyectos_nas01_nfs/SIGEDU-Mobile/Repositorio/Backend-Frmwk/tests:/sistema/tests
+      - /mnt/proyectos_nas01_nfs/SIGEDU-Mobile/Repositorio/Backend-Frmwk/dockerfiles/config-tdi/.env:/sistema/.env
+      - /mnt/proyectos_nas01_nfs/SIGEDU-Mobile/Repositorio/Backend-Frmwk/dockerfiles/config-tdi/.htaccess:/sistema/public/.htaccess
+    # ports:
+    #   - "${HTTP_PORT_HOST}:${HTTP_PORT_CONTAINER}"
+    restart: unless-stopped
+networks:
+  network_project:
+    name: ${PROJECT_NETWORK_NAME}
+    driver: bridge

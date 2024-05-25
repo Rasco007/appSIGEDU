@@ -1,0 +1,22 @@
+export {default as Input} from './input/index';
+export {default as Modals} from './modal/index';
+export {default as CustomTabBarIcon} from './nav-item/index';
+export {default as CustomButton} from './button/index';
+export {default as LanguageSwitcher} from './languageswitch/index';
+export {default as BackButton} from './retroceso/index';
+export {default as DialogTitle} from './dialog/index';
+export {default as CarouselApp} from './Carousel/index';
+export {default as Calendario} from './calendar/index';
+export {default as CustomHeader} from './header/index';
+export {default as BottomSheet} from './bottom-sheet/index';
+export {default as ModalSheet} from './modal-sheet/index';
+export {default as CardPerfil} from './cardPerfil/index';
+export {default as MenuGItem} from './items/menuGItem/index';
+export {default as CardItem} from './items/card_item/index';
+export {default as MenuItem} from './items/menu_item/index';
+
+export {default as MisClasesHoyCards} from './misClasesHoyCards/index';
+export {default as ProximosExamenesCards} from './proximosExamenesCards/index';
+export {default as ExamenesCards} from './ExamenesCards/index';
+export {default as ProxExamDetCursCards} from './proxExamDetCursCards/index';
+export {default as ModalNoticias} from './modalNoticias/index';

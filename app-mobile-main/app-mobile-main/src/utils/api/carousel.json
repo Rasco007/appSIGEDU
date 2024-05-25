@@ -1,0 +1,30 @@
+{
+  "state": "OK",
+  "cardsNovedades": [
+    {
+      "title": "Novedad 1",
+      "urlImage": "https://picsum.photos/200/300",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices quam a fermentum fringilla. Fusce id purus eu magna mollis posuere sit amet id justo. Nullam tincidunt diam in magna commodo ullamcorper at eu arcu. Sed gravida non magna et pellentesque. Nullam interdum enim tristique cursus finibu"
+    },
+    {
+      "title": "Novedad 2",
+      "urlImage": "https://picsum.photos/200/00",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices quam a fermentum fringilla. Fusce id purus eu magna mollis posuere sit amet id justo. Nullam tincidunt diam in magna commodo ullamcorper at eu arcu. Sed gravida non magna et pellentesque. Nullam interdum enim tristique cursus finibus"
+    },
+    {
+      "title": "Novedad 3",
+      "urlImage": "https://picsum.photos/200/400",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices quam a fermentum fringilla. Fusce id purus eu magna mollis posuere sit amet id justo. Nullam tincidunt diam in magna commodo ullamcorper at eu arcu. Sed gravida non magna et pellentesque. Nullam interdum enim tristique cursus finibus"
+    },
+    {
+      "title": "Novedad 4",
+      "urlImage": "https://picsum.photos/200/400",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices quam a fermentum fringilla. Fusce id purus eu magna mollis posuere sit amet id justo. Nullam tincidunt diam in magna commodo ullamcorper at eu arcu. Sed gravida non magna et pellentesque. Nullam interdum enim tristique cursus finibus"
+    },
+    {
+      "title": "Novedad 5",
+      "urlImage": "https://picsum.photos/200/400",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices quam a fermentum fringilla. Fusce id purus eu magna mollis posuere sit amet id justo. Nullam tincidunt diam in magna commodo ullamcorper at eu arcu. Sed gravida non magna et pellentesque. Nullam interdum enim tristique cursus finibus"
+    }
+  ]
+}

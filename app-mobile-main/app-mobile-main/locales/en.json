@@ -1,0 +1,8 @@
+{
+  "tituloLogin": "Hello!",
+  "mensajeLogin": "Log in with your credentials",
+  "usuarioLogin": "Username",
+  "contraseñaLogin": "Password",
+  "mensajeClaveLogin": "Forgot your password?",
+  "botonLogin": "Log In"
+}
